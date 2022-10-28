@@ -26,7 +26,7 @@
 >
 >기술 스택:  
 >Java 11 / Spring Boot / Gradle / Spring Data JPA / QueryDSL  
->H2 / MySQL / Spring Security / Jmeter / Junit5
+>WebSocket / H2 / MySQL / Spring Security / Jmeter / Junit5
 >  
 >[프로젝트 상세 설명](https://github.com/BeomSeogKim/Final-Project) 참고
 
