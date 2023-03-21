@@ -29,7 +29,7 @@
 >기술 스택:   
 >Java 11 / Spring Boot / Gradle / Spring Data JPA / WebSocket / Redis  
 >H2 / MySQL / Spring Securiy / Junit5 / Mockito / RestDocs   
-
+>
 >[프로젝트 상세 설명]() 참고
 
 ### 2. [3355](https://3355.world)
