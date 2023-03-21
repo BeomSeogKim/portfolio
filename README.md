@@ -66,6 +66,8 @@
   ### 2022년 10월 ~ 2023년 03월 
   - 인프런 스프링 완정 정복 로드맵 수료
     - [로드맵 바로가기](https://www.inflearn.com/roadmaps/373)
+  ### 2022년 08월 ~ 2022년 11월 
+  - 이노베이션 캠프 강원(항해99) 과정 수료
   ### 2020년 03월 ~ 2022년 07월  
   - 연세대학교 석사
     - CFD(Computational Fluid Dynamics)와 Machine Learning을 접목한 연구를 수행
