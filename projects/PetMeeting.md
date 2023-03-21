@@ -25,15 +25,14 @@ GitHub: https://github.com/project-pet-meeting/repo-be-edit
 :computer: 사이드 프로젝트 중점 목표   
 -------------     
 ###  1) HATEOAS(Hypermedia As The Engine Of Application State)하이퍼미디어를 통해 상태 구동을 적용시켜 API 응답하기         
-https://github.com/project-pet-meeting/repo-be-edit/blob/051741d16830e54d6ee98fbdf231b2b9c4414a53/src/main/java/sideproject/petmeeting/post/controller/PostController.java#L38-L54  
+[바로가기](https://github.com/project-pet-meeting/repo-be-edit/blob/051741d16830e54d6ee98fbdf231b2b9c4414a53/src/main/java/sideproject/petmeeting/post/controller/PostController.java#L38-L54)  
 ###  2) 테스트 코드 작성         
-https://github.com/project-pet-meeting/repo-be-edit/blob/051741d16830e54d6ee98fbdf231b2b9c4414a53/src/test/java/sideproject/petmeeting/member/controller/MemberControllerTest.java#L1-L507   
+[바로가기](https://github.com/project-pet-meeting/repo-be-edit/tree/main/src/test/java/sideproject/petmeeting)   
 ###  3) Spring Rest Docs 적용         
 <img src="https://user-images.githubusercontent.com/110077343/224490064-df0eaebe-cae5-4905-9b77-f9e5c8fcc02f.png"></img><br/>    
-https://github.com/project-pet-meeting/repo-be-edit/blob/main/src/docs/asciidoc/index.adoc  
+[바로가기](https://github.com/project-pet-meeting/repo-be-edit/blob/main/src/docs/asciidoc/index.adoc)  
 ###  4) WebSocket, stomp, Redis를 이용한 채팅 기능 구현         
-https://github.com/project-pet-meeting/repo-be-edit/blob/051741d16830e54d6ee98fbdf231b2b9c4414a53/build.gradle#L63-L76   
-https://github.com/project-pet-meeting/repo-be-edit/blob/051741d16830e54d6ee98fbdf231b2b9c4414a53/src/main/java/sideproject/petmeeting/chat/controller/ChatController.java#L1-L108   
+[바로가기](https://github.com/project-pet-meeting/repo-be-edit/issues/26)
 ###  5) Jenkins 빌드 및 자동 배포 적용         
 <img src="https://user-images.githubusercontent.com/110077343/224490847-baa46a09-6bfd-4b55-bdeb-fc651acc7df9.png"></img><br/>   
 
