@@ -32,7 +32,7 @@
 >
 >[프로젝트 상세 설명](https://github.com/BeomSeogKim/portfolio/blob/main/projects/PetMeeting.md) 참고
 
-### 2. [3355](https://3355.world)
+### 2. 3355
 >관심사가 같은 사람들끼리 만날 수 있는 소셜 네트워킹 플랫폼  (팀 프로젝트)  
 >개발 기간: 2022년 09월 ~ 2022년 10월
 >
