@@ -20,6 +20,8 @@
 
 | | |
 |:---|:---|
+| **리세일 레거시 3개 시스템 통합** | 5개 도메인 데이터 정합성 교차 검증, 24.3억 원 불일치 사전 발견 및 수정 |
+| **E2E 테스트 재설계 + AI 셀렉터 자가 복구** | 2-Layer Self-Healing, 셀렉터 수동 유지보수 제거, 안정성 ~95% |
 | **eBay 글로벌 연동 시스템** | 동기화 8배 단축 (24h → 3h), 글로벌 채널 흑자 전환 기반 |
 | **OpenTelemetry Custom Agent** | 30개+ JVM 서비스 적용, 장애 파악 시간 20~50분 → 5분 이내 |
 | **기획전 성능 고도화** | 응답 속도 93% 개선 (30s → 2s) |
@@ -50,6 +52,13 @@
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 
+**AI & Automation**
+
+![Claude Code](https://img.shields.io/badge/Claude_Code-CC785C?style=flat-square&logo=anthropic&logoColor=white)
+![AWS Bedrock](https://img.shields.io/badge/AWS_Bedrock-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
+
 <br/>
 
 ## Experience
@@ -60,6 +69,8 @@
 
 | Period | Project | Impact |
 |:-------|:--------|:-------|
+| 2026.02 ~ 2026.03 | [E2E 테스트 재설계 — AI 셀렉터 자가 복구](projects/self-healing-test.md) | 셀렉터 수동 유지보수 제거, 안정성 ~95% |
+| 2025.12 ~ 진행 중 | [리세일 3개 레거시 시스템 통합 마이그레이션](projects/resale-migration.md) | 5 도메인 통합, 24.3억 원 불일치 수정 |
 | 2025.12 ~ 2026.01 | [OpenTelemetry Custom Agent 개발](projects/otel-custom-agent.md) | 30개+ 서비스 적용, 장애 파악 5분 이내 |
 | 2025.09 | [기획전 서비스 성능 고도화](projects/exhibition-performance.md) | 응답 속도 93% 개선 (30s → 2s) |
 | 2025.01 ~ 2025.09 | [eBay 글로벌 상품 연동 시스템](projects/ebay-global-integration.md) | 동기화 8배 단축, 흑자 전환 기반 |
