@@ -3,7 +3,7 @@
 <br/>
 
 [![Email](https://img.shields.io/badge/dev.adrianstudio@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:dev.adrianstudio@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/beomseog-kim-8aaba8270/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/beomseogkim/)
 [![Blog](https://img.shields.io/badge/Tistory-FF5722?style=flat-square&logo=tistory&logoColor=white)](https://tommykim.tistory.com/)
 
 <br/>
