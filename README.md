@@ -2,7 +2,7 @@
 
 **문제의 원인을 짚고, 해결 방향을 구체화해 서비스에 구현하는 백엔드 개발자입니다.**
 
-- 중단된 시스템 이관을 이어받아 출시하고, 데이터 정합성과 조회 병목을 개선합니다.
+- 중단된 이관 프로젝트를 이어받아 신규 시스템을 출시하고, 데이터 정합성과 조회 병목을 개선합니다.
 - AI의 구현 계획과 결과를 검토하며 개발·검증에 활용합니다.
 
 [![Blog](https://img.shields.io/badge/Blog-addylog.dev-333333?style=flat&logo=rss&logoColor=white)](https://addylog.dev)
