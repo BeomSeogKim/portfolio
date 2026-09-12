@@ -1,129 +1,86 @@
-# 김범석 (Beomseog Kim)
+# 김범석 · Backend Engineer
 
-<br/>
+**문제의 원인을 짚고, 해결 방향을 구체화해 서비스에 구현하는 백엔드 개발자입니다.**
 
-[![Email](https://img.shields.io/badge/dev.adrianstudio@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:dev.adrianstudio@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/beomseogkim/)
-[![Blog](https://img.shields.io/badge/Tistory-FF5722?style=flat-square&logo=tistory&logoColor=white)](https://tommykim.tistory.com/)
+중단된 시스템 이관을 이어받아 출시하고, 서비스 간 데이터 불일치와 조회 병목을 개선해 왔습니다.
+AI를 개발과 검증에 활용하며, 구현 계획과 결과를 검토하는 방식으로 업무에 적용하고 있습니다.
 
-<br/>
+[![Blog](https://img.shields.io/badge/Blog-addylog.dev-333333?style=flat&logo=rss&logoColor=white)](https://addylog.dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat)](https://www.linkedin.com/in/beomseogkim/)
+[![Email](https://img.shields.io/badge/Email-555555?style=flat&logo=gmail&logoColor=white)](mailto:dev.adrianstudio@gmail.com)
 
-## About
+## 경력
 
-- 끊임없이 서비스의 문제를 발견하고 해결하며, 기술적 성과를 비즈니스 임팩트로 연결합니다
-- 현재 기술 스택에 국한되지 않고, 필요한 기술을 적극적으로 학습하여 문제를 해결합니다
-- 오픈소스 기여를 통해 기술 생태계와 함께 성장하고 있습니다
+**트렌비 · 백엔드 엔지니어** · 2024.05 ~ 현재<br>
+도메인: 전시 · 마케팅 · 글로벌 · 리세일
 
-<br/>
+`Kotlin` · `Java` · `Spring` · `JPA` · `MySQL`<br>
+경험별로 `TypeScript / NestJS`, `Coroutine / WebFlux`, `Redis`, `Kafka`, `OpenTelemetry`를 활용했습니다.
 
-## Highlights
+## 대표 경험
 
-| | |
-|:---|:---|
-| **리세일 레거시 3개 시스템 통합** | 5개 도메인 데이터 정합성 교차 검증, 24.3억 원 불일치 사전 발견 및 수정 |
-| **E2E 테스트 재설계 + AI 셀렉터 자가 복구** | 2-Layer Self-Healing, 셀렉터 수동 유지보수 제거, 안정성 ~95% |
-| **eBay 글로벌 연동 시스템** | 동기화 8배 단축 (24h → 3h), 글로벌 채널 흑자 전환 기반 |
-| **OpenTelemetry Custom Agent** | 30개+ JVM 서비스 적용, 장애 파악 시간 20~50분 → 5분 이내 |
-| **기획전 성능 고도화** | 응답 속도 93% 개선 (30s → 2s) |
+### [리세일 시스템 마이그레이션](projects/resale-migration.md)
 
-<br/>
+**2026.02 ~ 2026.05 · 중단된 프로젝트 인수부터 신규 시스템 출시와 운영 안정화까지**
 
-## Tech Stack
+상품 유형 변경 때마다 상품을 새로 생성해 이력 추적이 어려웠고, 여러 차례의 부분 이관으로 복잡도가 누적된 시스템을 인수했습니다.
+실무자와 업무 맥락을 구체화하고 AI의 구현 계획을 검토·승인하는 방식으로 전환해 개발을 진행했습니다.
+이관 금액 대조와 기능 검증으로 정산 금액 불일치·상품 상태 오류를 보완하고 약 3개월 만에 신규 시스템을 출시했습니다.
 
-**Languages**
+### [Heimdal — AI 기반 E2E 테스트 유지보수 자동화](projects/self-healing-test.md)
 
-![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+**2026.07 ~ 현재 · 실패 분석 → 수정·재검증 → PR 생성 → 사람의 검토**
 
-**Frameworks**
+UI 변경에 따른 유지보수가 끊겨 활용하지 못하던 구매 흐름 테스트를 다시 운영하기 위해 추진했습니다.
+서비스 응답·API·브라우저 흐름의 검증을 나누고, AI가 소스 코드를 바탕으로 실패를 분석해 수정 PR을 생성하도록 구성했습니다.
+엔지니어는 수정 PR 검토를 중심으로 테스트를 유지보수합니다.
 
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Spring WebFlux](https://img.shields.io/badge/Spring_WebFlux-6DB33F?style=flat-square&logo=spring&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
-![JPA](https://img.shields.io/badge/JPA-59666C?style=flat-square&logo=hibernate&logoColor=white)
-![QueryDSL](https://img.shields.io/badge/QueryDSL-4479A1?style=flat-square)
+### [한달특가 재구축](projects/monthly-special.md)
 
-**Infrastructure & Data**
+**2026.06 · 서비스 간 부분 실패를 고려한 할인·가격 정합성 개선**
 
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+특가 등록과 상품 가격 변경 중 일부만 성공하면 데이터가 불일치하던 기능을 재구축했습니다.
+멱등 처리와 락으로 중복 할인을 방지하고, 보상·Outbox 재처리로 복구 경로를 마련했습니다.
+다른 가격 변경이 있으면 자동 원복을 멈추고, 태그 실패는 할인과 분리해 복구하도록 설계했습니다.
 
-**AI & Automation**
+### [매입전환 경로 구축](projects/purchase-conversion.md)
 
-![Claude Code](https://img.shields.io/badge/Claude_Code-CC785C?style=flat-square&logo=anthropic&logoColor=white)
-![AWS Bedrock](https://img.shields.io/badge/AWS_Bedrock-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
+**2026.07 ~ 2026.08 · 고객 직접 신청부터 실패 시 운영 복구까지**
 
-<br/>
+CS를 거치던 위탁 상품의 매입전환을 고객이 마이페이지에서 직접 신청할 수 있도록 구축했습니다.
+계약과 신청 상태를 함께 확인해 지연·중복 이벤트를 방어하고, 실패 단계별 보상을 구성했습니다.
+보상 실패 시에는 재신청을 제한하고 CS 확인 후 해제하는 복구 절차를 마련했습니다.
 
-## Experience
+## 연동·성능·운영 개선
 
-### Trenbe
+| 경험 | 해결한 문제와 결과 |
+| --- | --- |
+| [eBay 상품 연동 자동화 및 고도화](projects/ebay-global-integration.md) | 수기 등록을 MIP 일괄 등록, 다국가 API 연동으로 단계적으로 확장. **전체 상품·전 국가 연동 약 24시간 → 3시간** |
+| [C2B 경매 서비스 개발](projects/c2b-auction.md) | 백엔드 전반을 단독 담당. 업무 규칙을 구체화하고 도메인 모델·테스트로 기획 변경에 대응해 **약 2개월의 최초 출시 목표** 달성 |
+| [기획전 조회 성능 개선](projects/exhibition-performance.md) | 순차 상품 조회 병렬화와 요청 기반 캐시 갱신. **캐시 미스 시 약 30초 → 2초**, 배포 후 3~4일간 지연 알림 미관찰 |
+| [쿠폰 조회 성능 개선](projects/coupon-optimization.md) | N+1 해소와 반복 COUNT 쿼리 통합. **결제의 사용 가능 쿠폰 약 12초 → 0.3초**, 전체 사용자 대상 약 5초 → 1초 |
+| [BytePlus 추천·이벤트 처리 개선](projects/user-behavior-data.md) | 추천 API·A/B 분기와 일 약 300만 건 이벤트 파이프라인 구축. 배치 처리로 **하루 가까운 전송 지연을 실시간 수준으로 회복** |
+| [OpenTelemetry 분산 추적 적용](projects/otel-custom-agent.md) | Spring Boot 플러그인의 버전 제약을 Java Agent로 해소. Custom Extension으로 사용자·주문 단위 추적과 N+1 탐지 지원 |
+| [초저가 기획전 자동화](projects/budget-exhibition.md) | MD가 매일 수작업으로 갱신하던 상품을 12시간 주기로 자동 반영 |
 
-> 2024.05 ~ 재직 중
+## 개인 프로젝트
 
-| Period | Project | Impact |
-|:-------|:--------|:-------|
-| 2026.02 ~ 2026.03 | [E2E 테스트 재설계 — AI 셀렉터 자가 복구](projects/self-healing-test.md) | 셀렉터 수동 유지보수 제거, 안정성 ~95% |
-| 2025.12 ~ 진행 중 | [리세일 3개 레거시 시스템 통합 마이그레이션](projects/resale-migration.md) | 5 도메인 통합, 24.3억 원 불일치 수정 |
-| 2025.12 ~ 2026.01 | [OpenTelemetry Custom Agent 개발](projects/otel-custom-agent.md) | 30개+ 서비스 적용, 장애 파악 5분 이내 |
-| 2025.09 | [기획전 서비스 성능 고도화](projects/exhibition-performance.md) | 응답 속도 93% 개선 (30s → 2s) |
-| 2025.01 ~ 2025.09 | [eBay 글로벌 상품 연동 시스템](projects/ebay-global-integration.md) | 동기화 8배 단축, 흑자 전환 기반 |
-| 2025.06 | [C2B 경매 서비스 개발](projects/c2b-auction.md) | 3주 내 MVP 무장애 출시, 테스트 커버리지 100% |
-| 2024.10 ~ 2024.12 | [대용량 유저 행동 데이터 처리 시스템](projects/user-behavior-data.md) | 처리 지연 20h → 10s 이내 (99% 단축) |
-| 2024.10 ~ 2024.11 | [추천 광고 로직 고도화](projects/ad-recommendation.md) | 검색 컨텍스트 기반 광고 필터링으로 부정적 UX 해결 |
-| 2024.10 | [쿠폰 서비스 성능 개선](projects/coupon-optimization.md) | API 응답 최대 97% 단축 (12s → 0.3s) |
-| 2024.06 ~ 2024.07 | [초저가 기획전 개발](projects/budget-exhibition.md) | 구매 전환율 40% 성장, 운영 100% 자동화 |
+- **[Partitur](https://github.com/BeomSeogKim/Partitur)** — 여러 AI 코딩 에이전트의 역할·실행 순서·인수인계를 관리하는 도구
+- **[sealbox](https://github.com/BeomSeogKim/sealbox)** — AI 에이전트와 개발할 때 시크릿을 보호하는 로컬 암호화 저장소
 
-<br/>
+## 오픈소스 기여
 
-## Open Source
+- **OpenSearch** — if-else 체인을 switch 표현식으로 전환하고 사용 종료된 upgrade-cli 도구·빌드 참조 제거 · [#18965](https://github.com/opensearch-project/OpenSearch/pull/18965) · [#18494](https://github.com/opensearch-project/OpenSearch/pull/18494)
+- **Spring AI** — JSON 파서에서 int/long의 과학적 표기법 처리 개선 · [#3051](https://github.com/spring-projects/spring-ai/pull/3051)
+- **Mockito** — JDK 21 Sequenced Collections 지원 추가, 리뷰에 따라 테스트를 프로젝트 표준 Assume.assumeThat 방식으로 개선 · [#3708](https://github.com/mockito/mockito/pull/3708) · [#3711](https://github.com/mockito/mockito/pull/3711)
 
-**Spring AI**
-- JsonParser 과학적 표기법 숫자 변환 시 NumberFormatException 해결 — [PR #3051](https://github.com/spring-projects/spring-ai/pull/3051)
+## 학력
 
-**OpenSearch**
-- 미사용 upgrade-cli 코드 제거 — [PR #18494](https://github.com/opensearch-project/OpenSearch/pull/18494)
-- Java 17 패턴 매칭 적용 리팩토링 — [PR #18965](https://github.com/opensearch-project/OpenSearch/pull/18965)
+**연세대학교 환경공학과**
 
-**Mockito**
-- JDK 21 Sequenced Collections 반환 지원 — [PR #3708](https://github.com/mockito/mockito/pull/3708)
-- Java 버전 의존적 테스트 코드 개선 — [PR #3711](https://github.com/mockito/mockito/pull/3711)
-
-<br/>
-
-## Activity
-
-- **컨퍼런스 발표** — 오픈소스 첫 기여를 위한 실전 가이드 (2025.06)
-- **오픈소스 기여 모임** 활동 (2025.05 ~ 2025.09)
-
-<br/>
-
-## Education
-
-**연세대학교** (2014.03 ~ 2022.07)
-
-- 환경 공학과 (석사) · GPA 4.21 / 4.3 — [석사 논문: CFD + ML 기반 자연발화 예측 연구](https://www.riss.kr/link?id=T16373975)
-- 환경 공학과 (학사) · GPA 4.21 / 4.3 · **수석 졸업** · 우수상 8회
-
-<br/>
+- 석사 · 2020.03 ~ 2022.08
+- 학사 · 2014.03 ~ 2020.02 · 수석졸업
 
 ---
 
-<details>
-<summary><b>Archive</b> — 부트캠프 프로젝트 (2022 ~ 2023)</summary>
-
-<br/>
-
-| Project | Description | Period |
-|:--------|:------------|:-------|
-| [우리이거삭제하지말자](Archive/projects/우리이거삭제하지말자.md) | 커플 기반 다이어리 서비스 · Java 17, Spring Boot 3.1 | 2023.10 ~ 2023.12 |
-| [PetMeeting](Archive/projects/PetMeeting.md) | 반려동물 매칭 서비스 · Java 11, Spring Boot 2.7 | 2022.11 ~ 2023.02 |
-| [3355](Archive/projects/3355.md) | 소셜 네트워킹 플랫폼 · Java 11, Spring Boot 2.7 | 2022.09 ~ 2022.10 |
-
-</details>
+[이전 학습·부트캠프 프로젝트](Archive/README.md)
