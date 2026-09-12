@@ -19,7 +19,7 @@ AI를 개발과 검증에 활용하며, 구현 계획과 결과를 검토하는 
 
 ## 대표 경험
 
-### [리세일 시스템 마이그레이션](projects/resale-migration.md)
+### [리세일 시스템 마이그레이션](experience/resale-migration.md)
 
 **2026.02 ~ 2026.05 · 중단된 프로젝트 인수부터 신규 시스템 출시와 운영 안정화까지**
 
@@ -27,7 +27,7 @@ AI를 개발과 검증에 활용하며, 구현 계획과 결과를 검토하는 
 실무자와 업무 맥락을 구체화하고 AI의 구현 계획을 검토·승인하는 방식으로 전환해 개발을 진행했습니다.
 이관 금액 대조와 기능 검증으로 정산 금액 불일치·상품 상태 오류를 보완하고 약 3개월 만에 신규 시스템을 출시했습니다.
 
-### [Heimdal — AI 기반 E2E 테스트 유지보수 자동화](projects/self-healing-test.md)
+### [Heimdal — AI 기반 E2E 테스트 유지보수 자동화](experience/self-healing-test.md)
 
 **2026.07 ~ 현재 · 실패 분석 → 수정·재검증 → PR 생성 → 사람의 검토**
 
@@ -35,7 +35,7 @@ UI 변경에 따른 유지보수가 끊겨 활용하지 못하던 구매 흐름 
 서비스 응답·API·브라우저 흐름의 검증을 나누고, AI가 소스 코드를 바탕으로 실패를 분석해 수정 PR을 생성하도록 구성했습니다.
 엔지니어는 수정 PR 검토를 중심으로 테스트를 유지보수합니다.
 
-### [한달특가 재구축](projects/monthly-special.md)
+### [한달특가 재구축](experience/monthly-special.md)
 
 **2026.06 · 서비스 간 부분 실패를 고려한 할인·가격 정합성 개선**
 
@@ -43,7 +43,7 @@ UI 변경에 따른 유지보수가 끊겨 활용하지 못하던 구매 흐름 
 멱등 처리와 락으로 중복 할인을 방지하고, 보상·Outbox 재처리로 복구 경로를 마련했습니다.
 다른 가격 변경이 있으면 자동 원복을 멈추고, 태그 실패는 할인과 분리해 복구하도록 설계했습니다.
 
-### [매입전환 경로 구축](projects/purchase-conversion.md)
+### [매입전환 경로 구축](experience/purchase-conversion.md)
 
 **2026.07 ~ 2026.08 · 고객 직접 신청부터 실패 시 운영 복구까지**
 
@@ -55,13 +55,13 @@ CS를 거치던 위탁 상품의 매입전환을 고객이 마이페이지에서
 
 | 경험 | 해결한 문제와 결과 |
 | --- | --- |
-| [eBay 상품 연동 자동화 및 고도화](projects/ebay-global-integration.md) | 수기 등록을 MIP 일괄 등록, 다국가 API 연동으로 단계적으로 확장. **전체 상품·전 국가 연동 약 24시간 → 3시간** |
-| [C2B 경매 서비스 개발](projects/c2b-auction.md) | 백엔드 전반을 단독 담당. 업무 규칙을 구체화하고 도메인 모델·테스트로 기획 변경에 대응해 **약 2개월의 최초 출시 목표** 달성 |
-| [기획전 조회 성능 개선](projects/exhibition-performance.md) | 순차 상품 조회 병렬화와 요청 기반 캐시 갱신. **캐시 미스 시 약 30초 → 2초**, 배포 후 3~4일간 지연 알림 미관찰 |
-| [쿠폰 조회 성능 개선](projects/coupon-optimization.md) | N+1 해소와 반복 COUNT 쿼리 통합. **결제의 사용 가능 쿠폰 약 12초 → 0.3초**, 전체 사용자 대상 약 5초 → 1초 |
-| [BytePlus 추천·이벤트 처리 개선](projects/user-behavior-data.md) | 추천 API·A/B 분기와 일 약 300만 건 이벤트 파이프라인 구축. 배치 처리로 **하루 가까운 전송 지연을 실시간 수준으로 회복** |
-| [OpenTelemetry 분산 추적 적용](projects/otel-custom-agent.md) | Spring Boot 플러그인의 버전 제약을 Java Agent로 해소. Custom Extension으로 사용자·주문 단위 추적과 N+1 탐지 지원 |
-| [초저가 기획전 자동화](projects/budget-exhibition.md) | MD가 매일 수작업으로 갱신하던 상품을 12시간 주기로 자동 반영 |
+| [eBay 상품 연동 자동화 및 고도화](experience/ebay-global-integration.md) | 수기 등록을 MIP 일괄 등록, 다국가 API 연동으로 단계적으로 확장. **전체 상품·전 국가 연동 약 24시간 → 3시간** |
+| [C2B 경매 서비스 개발](experience/c2b-auction.md) | 백엔드 전반을 단독 담당. 업무 규칙을 구체화하고 도메인 모델·테스트로 기획 변경에 대응해 **약 2개월의 최초 출시 목표** 달성 |
+| [기획전 조회 성능 개선](experience/exhibition-performance.md) | 순차 상품 조회 병렬화와 요청 기반 캐시 갱신. **캐시 미스 시 약 30초 → 2초**, 배포 후 3~4일간 지연 알림 미관찰 |
+| [쿠폰 조회 성능 개선](experience/coupon-optimization.md) | N+1 해소와 반복 COUNT 쿼리 통합. **결제의 사용 가능 쿠폰 약 12초 → 0.3초**, 전체 사용자 대상 약 5초 → 1초 |
+| [BytePlus 추천·이벤트 처리 개선](experience/user-behavior-data.md) | 추천 API·A/B 분기와 일 약 300만 건 이벤트 파이프라인 구축. 배치 처리로 **하루 가까운 전송 지연을 실시간 수준으로 회복** |
+| [OpenTelemetry 분산 추적 적용](experience/otel-custom-agent.md) | Spring Boot 플러그인의 버전 제약을 Java Agent로 해소. Custom Extension으로 사용자·주문 단위 추적과 N+1 탐지 지원 |
+| [초저가 기획전 자동화](experience/budget-exhibition.md) | MD가 매일 수작업으로 갱신하던 상품을 12시간 주기로 자동 반영 |
 
 ## 개인 프로젝트
 
