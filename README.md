@@ -14,10 +14,6 @@
 **트렌비 · 백엔드 엔지니어** · 2024.05 ~ 현재<br>
 도메인: 전시 · 마케팅 · 글로벌 · 리세일
 
-- **언어:** `Kotlin` · `Java` · `TypeScript`
-- **백엔드:** `Spring` · `JPA` · `Coroutine / WebFlux` · `NestJS`
-- **데이터·관측:** `MySQL` · `Redis` · `Kafka` · `OpenTelemetry`
-
 ## 대표 경험
 
 ### [리세일 시스템 마이그레이션](experience/resale-migration.md)
